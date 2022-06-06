@@ -23,8 +23,10 @@ end
 add 1,2
 
 def halve (number)
-return nill unless num.class == Integer
-    number / 2
+ if number.class != Integer
+    
+ end
+    return number / 2
 end
 
-halve 6
+halve 8

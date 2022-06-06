@@ -23,7 +23,7 @@ end
 add 1,2
 
 def halve (number)
-return nill unless num.class == Integer
+return nill unless num.class == 
     number / 2
 end
 
