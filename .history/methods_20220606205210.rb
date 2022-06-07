@@ -22,7 +22,7 @@ def add(a, b)
 end
 add 1,2
 
-def halve (number)
+def halve (number=6)
 return nill unless number.class == Integer
     number / 2
 end

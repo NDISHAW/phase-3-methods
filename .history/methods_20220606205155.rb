@@ -22,10 +22,17 @@ def add(a, b)
 end
 add 1,2
 
-def halve (number)
+def halve (number=6)
 return nill unless number.class == Integer
     number / 2
 end
 
 halve 6
 
+evil_monster = "Bowser"
+
+def princess_peaches_castle(evil_monster)
+  puts "#{evil_monster} is trying to kidnap Princess Peach!"
+end
+
+princess_peaches_castle
