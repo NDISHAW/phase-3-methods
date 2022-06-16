@@ -26,7 +26,7 @@ def halve (number)
 if number.class == Integer
   return number / 2
 end
-return nil
+return 
 end
 
 halve 6

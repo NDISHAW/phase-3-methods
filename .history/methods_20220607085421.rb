@@ -24,9 +24,9 @@ add 1,2
 
 def halve (number)
 if number.class == Integer
-  return number / 2
+  return nil
 end
-return nil
+return 
 end
 
 halve 6
